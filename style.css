@@ -632,3 +632,17 @@ not all and (-ms-high-contrast: none) {
     align-items: center;
   }
 }
+
+/* フェードイン */
+body {
+  animation: fade 5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
